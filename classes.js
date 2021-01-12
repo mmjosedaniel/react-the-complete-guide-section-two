@@ -1,23 +1,23 @@
-// 16 understanding classes
+// 17 Classes, Properties and methods
 
 class Human {
-    constructor() {
-        this.gender = 'Male';
-    }
 
-    printGender() {
+    gender = 'Male';
+
+
+    printGender = () =>  {
         console.log(this.gender);
     }
 }
 
 class Person extends Human {
-    constructor() {
-        super();
-        this.name = 'Max';
-        this.gender = 'Female'
-    }
 
-    printMyName() {
+
+    name = 'Max';
+    gender = 'Female'
+
+
+    printMyName = () => {
         console.log(this.name);
     }
 }
