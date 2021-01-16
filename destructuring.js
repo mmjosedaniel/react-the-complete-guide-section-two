@@ -2,3 +2,4 @@
  [num1, num2] = numbers;
 
  console.log(num1, num2);
+ 
